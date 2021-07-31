@@ -3,10 +3,10 @@ var fixedRect, movingRect;
 function setup() {
   createCanvas(1200,800);
   fixedRect = createSprite(400, 100, 50, 80);
-  fixedRect.shapeColor = "green";
+  fixedRect.shapeColor = "red";
   fixedRect.debug = true;
   movingRect = createSprite(400, 800,80,30);
-  movingRect.shapeColor = "green";
+  movingRect.shapeColor = "red";
   movingRect.debug = true;
 
   movingRect.velocityY = -5;
